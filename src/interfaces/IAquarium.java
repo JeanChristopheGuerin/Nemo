@@ -3,7 +3,6 @@ package interfaces;
 import java.awt.Color;
 
 public interface IAquarium {
-
 	
 void addPoisson(IPoisson poisson);	
 void setWaterColor(Color couleur);
