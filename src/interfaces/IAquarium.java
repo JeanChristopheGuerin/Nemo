@@ -1,12 +1,19 @@
 package interfaces;
 
 import java.awt.Color;
+import java.util.ArrayList;
 
 public interface IAquarium {
 	
-void addPoisson(IPoisson poisson);	
-void setWaterColor(Color couleur);
-void setWidth(int largeur);
-void setLength(int longueur);
-void setSpeed(int vitesse);
+public void addPoisson(IPoisson poisson);	
+public void setWaterColor(Color couleur);
+public void setWidth(int largeur);
+public void setLength(int longueur);
+public void setSpeed(int vitesse);
+
+public ArrayList<? extends IPoisson> getPoissons();
+public int getWidth();
+public int getLength();
+public int getSpeed();
+public Color getWaterColor();
 }
