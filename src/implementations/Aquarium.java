@@ -15,7 +15,6 @@ private ArrayList<? extends IPoisson> poissons;
 
 	public void addPoisson(IPoisson poisson) {
 		
-		
 	}
 
 	public int getWidth() {
@@ -34,7 +33,7 @@ private ArrayList<? extends IPoisson> poissons;
 		this.length = length;
 	}
 
-	public int getSpeed(int vitesse) {
+	public int getSpeed() {
 		return speed;
 	}
 
@@ -57,6 +56,7 @@ private ArrayList<? extends IPoisson> poissons;
 	public void setPoissons(ArrayList<? extends IPoisson> poissons) {
 		this.poissons = poissons;
 	}
+
 
 	
 
