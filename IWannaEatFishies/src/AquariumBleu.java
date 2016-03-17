@@ -23,6 +23,7 @@ public class AquariumBleu implements Aquarium {
 	
 	@Override
 	public void animer() {
+		// TODO Y A UN FCKING SEGFAULT ICI
 		for(ArrayList<ArrayList<TrucKiNage>> AATKN : poissons){
 			for(ArrayList<TrucKiNage> ATKN : AATKN){
 				for(TrucKiNage TKN : ATKN){

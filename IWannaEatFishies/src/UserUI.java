@@ -23,9 +23,7 @@ public class UserUI extends JFrame {
 	private RunButton runButton;
 	private JPanel graphicPanel;
 	private JPanel extensionsPanel;
-	// plateform p = new plateform
-	// p.getDescs()
-	// if exist BlueAqua && Exist PoissonRouge
+	
 	public UserUI(){
 		JLabel jl;
 		GridBagConstraints c = new GridBagConstraints();
@@ -40,7 +38,11 @@ public class UserUI extends JFrame {
 		setLocationRelativeTo(null); // the window will pop on the center of the screen
 		setDefaultCloseOperation(EXIT_ON_CLOSE); // when this window is close the program end
 		
+		// plateform p = new plateform
+		// p.getDescs()
+		// if exist BlueAqua && Exist PoissonRouge{
 		
+		// tu t'en fou de ça ça place les JLabel qui auront les images de poissons sur le JPanel graphicPanel
 		graphicPanel.setSize(380,300);
 		for (int i = 0; i < aquaHeigth ; ++i){
 			poissonsUI.add(new ArrayList<JLabel>());
@@ -60,7 +62,7 @@ public class UserUI extends JFrame {
 				graphicPanel.add(jl,c);
 			}
 		}
-
+		// pour avoir de l'eau bleu
 		graphicPanel.setBackground(aquarium.getColor());
 		
 		add(graphicPanel,BorderLayout.CENTER); // place the graphic panel on window's top

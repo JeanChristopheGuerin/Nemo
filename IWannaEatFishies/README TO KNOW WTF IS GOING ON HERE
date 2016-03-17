@@ -1,0 +1,16 @@
+C'est du swing degueu déjà car j'ai pas le droit d'extend les classes tel que JLabel ou JPanel avec mes poissons / aquriums vu que j'implement une interface déjà.
+
+Je passe les détails sur les interface TrucKiNage et Aquarium, c'est comme on a décidé.
+
+UserUi c'est la fenetre principale, c'est la que normalement tu créé une platforme qui ensuite renvoie la liste des extensions que tu vas ajouter (pas encore fait pour le moment).
+Quand un aquarium est chargé (AquariumBleau par defaut dans le constructeur) toutes les X secondes on appel la fonction animer() dessus qui fait bouger les poissons.
+Quand tout les poissons ont bouger, faut aller regarder chaques cases de l'aquarium est recopier son ICon dans l'Icon du JLabel qui lui correspond.
+(T'as un TODO pour ça dans le code)
+
+RunButton tu t'en fou, il marche t'as meme pas à regarder le code
+
+T'as un piti srgfault dans aquarium bleu qu'il faut regler, c'est un vecteur à trois dimensions pour avoir plusieurs poissons sur un meme case de la matrice meme si en vrai j'ai codé pour qu'il y ai jamais plus d'un poisson pour le moment.
+
+Pour que les poissons apparaissent, il faudra metre dans pics une image qui s'appel "poissonRouge1.png" et une "poissonRouge-1.png"
+
+Voila, GL & HF hésite pas à m'appeler si t'as besoin.
